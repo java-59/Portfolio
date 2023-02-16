@@ -1,0 +1,262 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #ffffffad;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: #fff;
+}
+a {
+    color: grey;
+}
+
+.container-fluid {
+    padding: 6% 9%;
+}
+
+/*Navbar*/
+
+.navbar {
+    padding: 0 0 4.5rem
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/*Title section*/
+
+#title {
+    background-image: url("../images/front-wallpaper.jpg");
+    color: #fff;
+    padding-top: 180px;
+    padding-bottom: 0%;
+    text-align: left;
+}
+
+.title-image {
+    border-radius: 100%;
+    border-style: solid;
+    position: relative;
+    top: -50px;
+    left: 30%;
+    width: 230px;
+}
+
+.container-fluid-title {
+    padding: 2% 7%;
+}
+
+.flag {
+    max-width: 45px;
+    padding: 1%
+}
+
+@media (max-width: 1000px) {
+
+    #title {
+        padding-top: 3%;
+        text-align: center;
+    }
+
+    .title-image {
+        top: 15px;
+        left: auto;
+        right: auto;
+    }
+
+    .container-fluid-title {
+        padding: 12% 7% 8%;
+    }
+}
+
+/*Brief description*/
+
+#bio {
+    text-align: center;
+    background-image: url("../images/cool-wallpaper.png");
+    padding: 9% 15%;
+}
+
+.bio-title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bio-description {
+    color: rgb(46, 46, 46);
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 3%;
+}
+
+@media (max-width: 1000px) {
+
+    .bio-title {
+        font-size: 2.5rem;
+    }
+
+}
+
+/*Web Design*/
+
+#web-design {
+    background-color: azure;
+    text-align: left;
+}
+
+#web-design-header {
+    color: #fff;
+    background-color: rgb(117, 200, 255);
+    text-align: center;
+    padding: 1% 0% 0%;
+}
+
+.web-design-subtitle {
+    background-color: rgb(65, 129, 172);
+    text-align: center;
+    padding-bottom: -30px;
+}
+
+.light-description-p {
+    color: rgb(46, 46, 46);
+    text-align: justify;
+}
+
+.paint-timelaps {
+    border-width: 2px;
+    width: 450px;
+    max-width: 500px;
+    padding: 1% 1% 0% 2%;
+}
+
+@media (max-width: 1000px) {
+
+    #web-design {
+        text-align: center;
+    }
+
+    .paint-timelaps {
+        padding: 3% 0% 0% 0%;
+    }
+
+}
+
+
+/*Web Dev*/
+
+#web-dev {
+    background-color: rgb(97, 97, 97);
+    background-image: url("../images/abstract.png");
+    text-align: center;
+}
+
+#web-dev-header {
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    padding: 1% 0% 0%;
+}
+.web-dev-subtitle {
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    padding-bottom: -30px;
+}
+
+#logos-row {
+    padding: 3% 6%;
+}
+
+.logo {
+    max-width: 18%;
+    padding: 2.8%;
+}
+
+.dev-tit {
+    color: #fff;
+}
+
+.dev-desc {
+    color: #fff;
+}
+
+.dev-db-div {
+    text-align: right;
+    padding-left: 3%;
+}
+
+@media (max-width: 990px) {
+
+    .logo {
+        max-width: 33%;
+        padding: 6%;
+    }
+
+    .dev-tit {
+        text-align: center;
+    }
+
+    .dev-desc {
+        text-align: center;
+    }
+
+    .dev-db-div {
+        margin-top: 50px;
+    }
+}
+
+/* Call to Action and footer */
+
+#contact {
+    background-color: rgb(91, 155, 197);
+    color: #fff;
+    font-size: rem;
+    padding: 4% 15% 1% 15%;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 1.5%;
+}
